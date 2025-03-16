@@ -1,8 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{D80CB6DB-8468-200C-429E-D24E68D4D205}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrashKonijn.Goap.Resolver", "CrashKonijn.Goap.Resolver.csproj", "{F4F23A44-D508-2006-E031-90F24EE7D470}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrashKonijn.Goap", "CrashKonijn.Goap.csproj", "{59AECA3D-8395-6AD8-6633-855DEAE5E73C}"
@@ -11,16 +9,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrashKonijn.Goap.Editor", "CrashKonijn.Goap.Editor.csproj", "{D595ED28-E1D1-C1BA-589D-56F17CD493A8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{D80CB6DB-8468-200C-429E-D24E68D4D205}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D80CB6DB-8468-200C-429E-D24E68D4D205}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D80CB6DB-8468-200C-429E-D24E68D4D205}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D80CB6DB-8468-200C-429E-D24E68D4D205}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D80CB6DB-8468-200C-429E-D24E68D4D205}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F4F23A44-D508-2006-E031-90F24EE7D470}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F4F23A44-D508-2006-E031-90F24EE7D470}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4F23A44-D508-2006-E031-90F24EE7D470}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -37,6 +33,10 @@ Global
 		{D595ED28-E1D1-C1BA-589D-56F17CD493A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D595ED28-E1D1-C1BA-589D-56F17CD493A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D595ED28-E1D1-C1BA-589D-56F17CD493A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D80CB6DB-8468-200C-429E-D24E68D4D205}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D80CB6DB-8468-200C-429E-D24E68D4D205}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D80CB6DB-8468-200C-429E-D24E68D4D205}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D80CB6DB-8468-200C-429E-D24E68D4D205}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
