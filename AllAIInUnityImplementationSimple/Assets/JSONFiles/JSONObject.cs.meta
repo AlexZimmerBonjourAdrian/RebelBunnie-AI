@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: fe9cccc5d2997b1408195b38e9adfcba
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 12119
+  packageName: JSON in Java for Unity
+  packageVersion: 1.01
+  assetPath: Assets/JSONObject.cs
+  uploadId: 15752
