@@ -3,16 +3,7 @@ using UnityEngine;
 public class BehaviourTree : MonoBehaviour
 {
     //    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+   
     //This is the main class for the behaviour tree.
     //It will contain the root node of the tree.
     //The tree will be traversed from the root node to the leaf nodes.
