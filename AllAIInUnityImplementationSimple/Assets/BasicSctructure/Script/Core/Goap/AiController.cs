@@ -2,15 +2,9 @@ using UnityEngine;
 
 public class AiController : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    //Goal Main Controller Class
+    public Goal[] goals;
+    public Action[] actions;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+   
 }

@@ -1,3 +1,7 @@
+// This script controls the basic AI behavior of a GameObject, allowing it to move towards a target and return to its original position.
+// It uses Unity's NavMeshAgent for navigation and changes the object's color to indicate when the target or original position is reached.
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
