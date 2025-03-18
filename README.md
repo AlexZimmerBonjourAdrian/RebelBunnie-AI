@@ -78,3 +78,20 @@
 
 # Link Asset Store Unity
 **Coming Soon**
+
+# KeyWords
+such as:
+
+#Unity
+#AI
+#Artificial Intelligence"
+#Navigation
+#FSM 
+#Finite State Machine
+#GOAP
+#Goal-Oriented Action Planning
+#HTN
+#Hierarchical Task Network
+#Behavior Tree
+#Game AI
+
