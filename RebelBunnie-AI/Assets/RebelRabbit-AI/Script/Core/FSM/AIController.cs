@@ -2,6 +2,12 @@
 using UnityEngine;
 using UnityEngine.AI;
 using System.Collections.Generic;
+
+
+namespace RebelRabbit.FSM
+{ 
+
+     [AddComponentMenu("Rebel Rabbit/FSM/AI Controller")] 
 public class AIController : MonoBehaviour
 {
     public AIState currentState;
@@ -59,4 +65,5 @@ public class AIController : MonoBehaviour
         }
         return null;
     }
+}
 }

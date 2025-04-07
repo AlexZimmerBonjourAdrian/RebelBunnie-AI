@@ -5,6 +5,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
+namespace RebelRabbit.AI
+{
+    // This class handles the AI behavior of a GameObject.
+    // It moves towards a target and returns to its original position when the target is reached.
+    // It also changes the color of the GameObject to indicate the state of the AI.
+  
+    [AddComponentMenu("Rebel Rabbit/AI/Basic AI")] // Add this script to the menu for easy access.
 public class AI : MonoBehaviour
 {
     public Transform target; // The target the AI will move towards. Drag and drop the target object in the Inspector.
@@ -113,4 +120,5 @@ public class AI : MonoBehaviour
         objectRenderer.material.color = originalColor;
         agent.SetDestination(target.position);
     }
+}
 }

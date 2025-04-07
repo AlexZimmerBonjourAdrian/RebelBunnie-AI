@@ -2,6 +2,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
+namespace RebelRabbit.FSM
+{ 
+     [AddComponentMenu("Rebel Rabbit/FSM/PatrolState")]   
+
 public class PatrolState : AIState
 {
     public List<Transform> waypoints;
@@ -55,6 +59,7 @@ public class PatrolState : AIState
     {
         //no need to check transitions in this state
     }
+}
 }
 
 

@@ -4,6 +4,11 @@ using System.Collections.Generic;
 using System.Linq;
 
 // This script must be placed in an "Editor" folder in your Assets directory.
+namespace RebelRabbit.AI.Editor
+{
+    [AddComponentMenu("Rebel Rabbit/BehaviourTree/Action Node")]
+
+    [System.Serializable]
 public class AISwitchGroupsEditor : EditorWindow
 {
     private string targetAIName = "AI"; // Default name to search for.
@@ -97,4 +102,5 @@ public class AISwitchGroupsEditor : EditorWindow
         // Activate the selected AI object.
         selectedAI.SetActive(true);
     }
+}
 }

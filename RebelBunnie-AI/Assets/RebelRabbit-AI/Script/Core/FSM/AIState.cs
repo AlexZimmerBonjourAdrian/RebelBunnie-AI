@@ -1,6 +1,9 @@
 using System;
 using UnityEngine;
 
+namespace RebelRabbit.FSM
+{ 
+   [AddComponentMenu("Rebel Rabbit/FSM/AI State")]   
 public abstract class AIState : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -21,5 +24,6 @@ public abstract class AIState : MonoBehaviour
     }
 
     public abstract void CheckTransitions(AIController controller);
+}
 }
 

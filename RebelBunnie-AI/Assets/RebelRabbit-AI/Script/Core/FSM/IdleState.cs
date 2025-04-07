@@ -1,6 +1,9 @@
 using UnityEngine;
 using UnityEngine.AI;
 
+namespace RebelRabbit.FSM
+{ 
+       [AddComponentMenu("Rebel Rabbit/FSM/IdleState")]   
 public class IdleState : AIState
 {
     public float idleDuration = 3f; // How long the AI will stay idle.
@@ -43,4 +46,6 @@ public class IdleState : AIState
         //no need to check transitions in this state
     }
 }
+}
+
 
